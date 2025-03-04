@@ -1,75 +1,78 @@
 # Programming for Data Analysis - Project 2
 
+**Student:** Lais Coletta Pereira
 
-
-#### Student Lais Coletta Pereira
-
-***
+---
 
 ## Introduction
 
-The PdDA_Project2 repository contains a jupyter notebook with our last project of the module Programming for Data Analysis part of the Higher Diploma of Data Analytics course from the ATU University.
+The **PdDA_Project2** repository contains the final project for the *Programming for Data Analysis* module, part of the Higher Diploma in Data Analytics course at ATU University. This project utilizes the Breast Cancer Wisconsin (Diagnostic) Dataset to explore, analyze, and apply machine learning classifiers.
 
-## Jupyter Notebook 
+---
 
-In order to open this project you will need to have Jupyter installed. You can find the installation documentation for the [Jupyter platform, on ReadTheDocs](https://docs.jupyter.org/en/latest/install.html). The documentation for advanced usage of Jupyter notebook can be found [here](https://jupyter-notebook.readthedocs.io/en/latest/).
+## Prerequisites and Setup
 
-You can install Jupyter using  [pip](https://pip.pypa.io/en/stable/installation/), which is the package manager for Python.
+To run this project, you need to have Jupyter Notebook installed. Follow the installation instructions from [Jupyter's official documentation](https://docs.jupyter.org/en/latest/install.html). For advanced usage, refer to the [Jupyter Notebook documentation](https://jupyter-notebook.readthedocs.io/en/latest/).
 
-```
-pip install jupyter
-```
+### Install Jupyter Notebook:
 
-Once you have installed Jupyter, you can start the notebook server by running the following command in your terminal:
+1. Install Jupyter via pip:
+    ```bash
+    pip install jupyter
+    ```
 
-```
-Jupyter notebook
-```
+2. Launch Jupyter Notebook:
+    ```bash
+    jupyter notebook
+    ```
+    This will open the Jupyter dashboard in your browser.
 
-This will open a new tab in your web browser with the Jupyter dashboard, which will show the files and directories in the current directory. You can then navigate to the directory where you have saved your notebook file, and click on the notebook file to open it. The notebook will be displayed in a new tab in your web browser.
+### Cloning the Repository
 
-In order to run this repository locally you will need to clone this repository.
+To clone this repository, you need to have Git installed. If you don't have Git installed, you can get it from the [official Git website](https://git-scm.com/downloads). 
 
-To clone this repository using the command line, you will need to have Git installed on your system. You can check if Git is already installed by running the following command in your terminal:
+After installing Git, clone the repository using:
+```bash
+git clone git@github.com:LaisColetta/PdDA_Project2.git
 
-```
-git --version
-```
+This will create a local copy of the repository.
 
-If Git is not installed, you can install it by following the instructions for your operating system from the official Git website: https://git-scm.com/downloads
+---
 
-Once you have Git installed, you can clone a repository using the git clone command followed by the URL of the repository
+## About This Repository
 
-```
-git clone git@github.com:git@github.com:LaisColetta/PdDA_Project2.git
-```
+This repository contains the following files:
 
-This will create a new directory called repository, and download the contents of the repository into that directory. The directory name is created based on the name of the repository you are cloning.
+- **Project2.ipynb**: The main Jupyter notebook for the project.
+- **.gitignore**: A personalized gitignore file for macOS.
+- **breast_cancer_data.csv**: The Breast Cancer Wisconsin (Diagnostic) dataset in CSV format.
 
+### Project Overview:
 
-## About this repository
+In this project, I analyzed the Breast Cancer Wisconsin (Diagnostic) dataset and conducted the following tasks:
 
-In this repository there is a jupyter notebook called Project2, a gitignore (personalised for macos) and the Breast Cancer Wisconsin (Diagnostic) Dataset csv file. 
+- **Dataset Overview**: Provided a detailed analysis and background of the dataset.
+- **Literature Review**: Reviewed classifiers applied to the dataset and compared their performance.
+- **Statistical Analysis**: Performed statistical analysis on the dataset.
+- **Machine Learning**: Trained multiple classifiers using *scikit-learn* (SKLearn), evaluated their performance, and explained the parameter choices.
+- **Comparative Analysis**: Critiqued and compared results against relevant literature.
+- **Data Synthesis**: Discussed how the dataset could be extended by synthesizing new tumor data points.
+- **Documentation**: Documented the entire process in a Jupyter notebook for transparency and reproducibility.
 
-The Project2 is our final assessment in which we had to discuss the following topics based on our dataset:
+### Tools and Libraries Used:
 
-• Undertake an analysis/review of the dataset and present an overview and background.
-• Provide a literature review on classifiers which have been applied to the dataset and
-compare their performance
-• Present a statistical analysis of the dataset
-• Using a range of machine learning algorithms, train a set of classifiers on the dataset (using
-SKLearn etc.) and present classification performance results. Detail your rationale for the
-parameter selections you made while training the classifiers.
-• Compare, contrast and critique your results with reference to the literature
-• Discuss and investigate how the dataset could be extended – using data synthesis of new
-tumour datapoints
-• Document your work in a Jupyter notebook.
-• As a suggestion, you could use Pandas, Seaborn, SKLearn, etc. to perform your analysis.
-• Please use GitHub to demonstrate research, progress and consistency.
+- **Pandas**: For data manipulation and cleaning.
+- **Seaborn**: For data visualization.
+- **scikit-learn (SKLearn)**: For machine learning algorithms and performance evaluation.
 
-All the references I used for this project are mentioned throughout the project but also listed at the end of the jupyter notebook.
+### References:
 
+All references used in the project are cited within the notebook, both throughout the analysis and at the end of the document.
 
-## Reference for this readme file
+---
 
-https://github.com/finbourne/sample-notebooks/blob/master/README.md
+## Final Notes
+
+- Ensure all dependencies are installed before running the project.
+- For any issues or inquiries, feel free to reach out via my GitHub profile.
+
