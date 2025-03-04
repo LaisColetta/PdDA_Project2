@@ -34,7 +34,7 @@ To clone this repository, you need to have Git installed. If you don't have Git 
 After installing Git, clone the repository using:
 ```bash
 git clone git@github.com:LaisColetta/PdDA_Project2.git
-
+```
 This will create a local copy of the repository.
 
 ---
